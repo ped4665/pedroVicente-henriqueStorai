@@ -1,0 +1,189 @@
+@charset="UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+}
+p {
+	text-align:justify;
+	text-indent:100px;
+	display:block;
+}
+a{
+	color:darkred;
+	text-decoration:underline;
+}
+body{
+	background-color:gray;
+	background:url("imagens/ferrari.jpg");
+	font-family:arial,sans-serife;
+}
+
+
+header#cabecalho{
+	border-bottom: 1px gray solid;
+	height:280px;
+	width:900px;
+	background-color:white;
+	margin:-20px auto -70px auto;
+	box-shadow:0px 0px 10px rgba(0,0,0,1);
+	padding:110px 110px 0px 110px;
+	background:url("imagens/fundo.jpg");	
+}
+header#cabecalho h1{
+	font-family: 'Bitter', serif;
+	position:absolute;
+	top:-2px;
+	left:150px;
+}
+header#cabecalho img{
+	position:absolute;
+	top:68px;
+	left:100px;
+}
+header#cabecalho h2{
+	font-family: 'Bitter', serif;
+	position:absolute;
+	top: 248px;
+	left:120px;
+}
+section div.forma{
+	margin-top: 150px;
+}
+section div.forma img{
+	width: 760px;
+	height:450px;
+	position:absolute;
+	margin-top:150px;
+	border:2px solid white;
+}
+section#org{
+	border-bottom: 1px white solid;	
+	height:1700px;
+	width:900px;
+	background-color:white;
+	margin:-20px auto 0px auto;
+	box-shadow:0px 0px 10px rgba(0,0,0,.5);
+	padding:110px 110px 0px 110px;
+	background:url("imagens/fundo.jpg");
+}
+section#org h2{
+	font-family: 'Bitter', serif;
+	position:absolute;
+	margin: -30px auto auto -80px;
+}
+section#org p{
+	position:absolute;
+	margin:10px 130px auto -80px;
+	text-align:justify;
+}
+section figure#foto-legenda{
+	height:200px;
+	width:400px;
+	border:8px solid white;
+	padding:100px;
+	
+}
+section.posicao {
+	margin: 900px;
+	
+}
+
+	
+/* formatação de imagens com legendas*/
+figure.foto-legenda{
+	position:relative;
+	border:8px solid white;
+	box-shadow: 1px 1px 4px black;
+	margin: 120px auto auto auto; 
+}
+figure.foto-legenda img{
+	width:100%;
+	height:100%;	
+}
+figure.foto-legenda figcaption{
+	opacity:0;
+	position:absolute;
+	top:8px;
+	background-color:rgba(0,0,0,.4);
+	color:white;
+	width:100%;
+	height:100%;
+	padding:110px;
+	box-sizing:border-box;
+	transition:opacity 1s;
+}
+figure.antiga{
+	position:relative;
+	margin: 300px auto auto auto;
+	
+}
+figure.mack{
+	width:100px;
+	height:100px;
+	margin:100px 90px auto 280px;
+}
+
+
+	
+figure.foto-legenda:hover figcaption{
+	opacity:1;
+}
+/*Formatação do menu*/
+nav#menu{
+	display:block;
+}
+
+nav#menu ul{
+	list-style:none;
+	text-transform:uppercase;
+	position:absolute;
+	top:-15px;
+	left:440px;
+}
+nav#menu li{
+	display:inline-block;
+	background-color:lightgray;
+	padding:10px;
+	margin:2px;
+	transition:background-color 1s;
+}
+nav#menu li:hover{
+	background-color:#606060;
+}
+nav#menu h1{
+	display:none;
+}
+nav#menu a{
+	color:black;
+	text-decoration:none;
+}
+nav#menu a:hover{
+	color:white;
+	text-decoration:underline;
+}
+footer#rodape{
+	border-bottom: 1px white solid;	
+	height:0px;
+	width:900px;
+	background-color:white;
+	margin:-20px auto 0px auto;
+	box-shadow:0px 0px 10px rgba(0,0,0,.5);
+	padding:110px 110px 0px 110px;
+	background:url("imagens/fundo.jpg");
+	clear:both;
+	border-top:1px solid #606060;	
+}
+footer#rodape p{
+	text-align:center;
+	margin-top:-80px;
+}
+/*videos*/
+.video{
+	width:800px;
+	height:450px;
+	
+}
+
+#icone{
+	width: 180px;
+	margin-top: 20px;
+	margin-left: 860px;
+}

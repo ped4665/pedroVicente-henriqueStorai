@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+form{
+	position: absolute;
+	width:500px;
+	margin:auto;
+	margin-top:140px;
+}
+input,textarea{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+}
+input:hover, textarea:hover{
+	background-color: #dddddd;
+}
+legend{
+	color: black;
+	font-weight: bold;
+	font-size: 13pt;
+}
+fieldset{
+	border-color: #cecece;
+	margin:20px;
+}
+fieldset#sexo{
+	width: 150px;
+}
+fieldset#usuario p{
+	position:relative;
+	margin:30px;
+}
+fieldset#endereco p{
+	position:relative;
+	margin:30px;
+}
+fieldset#mensagem p{
+	position:relative;
+	margin:30px;	
+	
+}
+.cor{
+	color:white;
+}
+	
